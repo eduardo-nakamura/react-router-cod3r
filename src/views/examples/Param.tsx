@@ -1,9 +1,6 @@
 import { useParams } from 'react-router-dom'
-interface ParamProps {    
-    title?: string; 
-    description?: string; 
-}
-const Param: React.FC<ParamProps> = () => {  // Use React.FC and type the component
+
+const Param = () => {  // Use React.FC and type the component
     const { id } = useParams(); // Correct placement: inside the component function
   
     return ( // Return the JSX

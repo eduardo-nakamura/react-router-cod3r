@@ -4,7 +4,7 @@ import Menu from '../components/layout/Menu';
 import './App.css'
 
 
-const App = props => (
+const App = () => (
     <div className="App">
         <BrowserRouter>
             <Menu />
