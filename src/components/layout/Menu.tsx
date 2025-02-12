@@ -1,7 +1,7 @@
 import './Menu.css'
 import { Link } from 'react-router-dom'
 
-const Menu = props => (
+const Menu = () => (
     <aside className="Menu">
         <nav>
             <ul>

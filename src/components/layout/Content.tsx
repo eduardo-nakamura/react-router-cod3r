@@ -7,7 +7,7 @@ import Param from '../../views/examples/Param';
 import NotFound from '../../views/examples/NotFound';
 
 
-const Content = props => (
+const Content = () => (
     <main className="Content">
         <Routes>
             <Route path="/about" element={<About />} />
